@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appera profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #0a0a0a, #4caf50); /* تدرج من الأسود إلى الأخضر */
+            color: #003366; /* نص بلون أزرق غامق */
+        }
+        header {
+            background: rgba(76, 175, 80, 0.9); /* لون أخضر شفاف */
+            color: #2e7d32; /* نص بلون أخضر غامق */
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            background: linear-gradient(to right, rgba(76, 175, 80, 0.75), rgba(255, 255, 255, 0.25)); /* 75% أخضر و25% أبيض */
+            padding: 20px;
+            border-radius: 10px; /* زوايا دائرية للمربع */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* ظل للمربع */
+            position: relative; /* لتحديد موضع الأيقونات */
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+        }
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-right: 20px;
+            border: 5px solid #000; /* إطار أسود للصورة */
+            box-shadow: 0 0 15px 5px rgba(76, 175, 80, 0.8); /* ظل أخضر واضح */
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: rgba(76, 175, 80, 0.9); /* لون أخضر شفاف */
+            color: #2e7d32; /* نص بلون أخضر غامق */
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .social-icons {
+            position: absolute;
+            right: 20px; /* المسافة من اليمين */
+            bottom: 20px; /* المسافة من الأسفل */
+            text-align: right; /* محاذاة النص لليمين */
+        }
+        .social-icons a {
+            display: block;
+            margin-bottom: 10px;
+            color: #8B0000; /* لون الروابط أحمر غامق */
+            text-decoration: none; /* إزالة التسطير */
+            font-size: 22px; /* حجم الخط أكبر */
+        }
+        .social-icons a:hover {
+            color: #000000; /* تغيير اللون عند التحويم */
+        }
+        .social-icons a:active {
+            color: #000000; /* لون الروابط عند الضغط */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Appera profile</h1>
+    </header>
+    <div class="container">
+        <div class="profile">
+            <img src="IMG_0103.jpg" alt="صورة شخصية">
+            <div>
+                <h2>Apperahub</h2>
+                <p>Hello, my name is Appera. I created this website to introduce myself.</p>
+            </div>
+        </div>
+        <h3>The things I'm working on are:</h3>
+        <ul>
+            <li>Learn programming languages</li>
+            <li>Applications industry</li>
+            <li>Building websites</li>
+        </ul>
+        <div class="social-icons">
+            <a href="https://github.com/kaidm89/Appera-" target="_blank">GitHub</a>
+            <a href="https://m.youtube.com/@user-tk4ks8nt8i" target="_blank">YouTube</a>
+            <a href="https://www.tiktok.com/@dabak_90" target="_blank">TikTok</a>
+            <a href="https://www.pinterest.com/apperahub/?invite_code=117cb067a53c4a8aac2fff84a3bcb205&sender=1075375354681680633" target="_blank">Pinterest</a>
+        </div>
+    </div>
+</body>
+</html>
